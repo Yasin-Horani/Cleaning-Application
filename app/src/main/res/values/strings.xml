@@ -1,0 +1,122 @@
+<resources>
+    <!--general   -->
+    <string name="app_name">Cleaning Buddy</string>
+    <string name="close_btn_text">Terug</string>
+    <string name="register_text">registreren</string>
+    <string name="Tasks_delete_td_text">verwijderen</string>
+
+
+    <!--Inloggen-->
+    <string name="login_title_tv_text">Inloggen</string>
+    <string name="login_username_tv_text">Gebruikersnaam *</string>
+    <string name="login_password_tv_text">Wachtwoord *</string>
+    <string name="login_login_btn_text">Inloggen</string>
+
+    <!--Register-->
+    <string name="register_username_tv_text">Gebruikersnaam *</string>
+    <string name="register_password_tv_text">Wachtwoord *</string>
+    <string name="register_verify_password_tv_text">Bevestig Wachtwoord *</string>
+
+
+    <!--main page-->
+    <string name="main_title_tv_text">Cleaning Buddy</string>
+    <string name="main_newRoom_btn_text">Nieuwe Kamer</string>
+    <string name="main_newTask_btn_text">Nieuwe Taak</string>
+    <string name="main_OutstandingTasks_btn_text">Openstaande Taken</string>
+    <string name="main_OverviewOfRooms_btn_text">Overzicht Kamers</string>
+
+    <!--new Room-->
+    <string name="newRoom_title_tv_text">Nieuwe Kamer</string>
+    <string name="newRoom_createRoom_tv_text">kamer aanmaken:</string>
+    <string name="newRoom_createRoom_btn_text">kamer aanmaken</string>
+
+    <!--new task-->
+    <string name="newTask_title_tv_text">Nieuwe Taak</string>
+    <string name="newTask_taskName_tv_text">Taak naam</string>
+    <string name="newTask_roomName_tv_text">Kamer naam</string>
+    <string name="newTask_Interval_tv_text">Interval</string>
+    <string name="newTask_Assign_tv_text">Toewijzen aan</string>
+    <string name="newTask_StartDate_text">Startdatum</string>
+    <string name="newTask_CreateNewTask_btn_text">Nieuwe Taak aanmaken</string>
+
+    <!--Outstanding Tasks-->
+    <string name="OutstandingTasks_title_tv_text">Openstaande taken</string>
+    <string name="OutstandingTasks_select_th_text">Select</string>
+    <string name="OutstandingTasks_task_th_text">Taak</string>
+    <string name="OutstandingTasks_room_th_text">Kamer</string>
+    <string name="OutstandingTasks_day_th_text">Start Datum</string>
+    <string name="OutstandingTasks_interval_th_text">Interval</string>
+    <string name="OutstandingTasks_task_td_text">Opruimen</string>
+    <string name="OutstandingTasks_room_td_text">Keuken</string>
+    <string name="OutstandingTasks_day_td_text">20-06-2024</string>
+    <string name="OutstandingTasks_interval_td_text">Dagelijks</string>
+    <string name="OutstandingTasks_ShowCompletedTasks_btn_text">Afgeronde Taken Tonen</string>
+    <string name="OutstandingTasks_TasksEditData_btn_text">Taken Gegevens Aanpassen</string>
+
+    <!--Completed Tasks-->
+    <string name="CompletedTasks_title_tv_text">Afgeronde Taken</string>
+    <string name="CompletedTasks_task_th_text">Taak</string>
+    <string name="CompletedTasks_CompletedBy_th_text">Afgerond Door</string>
+    <string name="CompletedTasks_finishedAt_th_text">Aangepast Op</string>
+    <string name="CompletedTasks_task_td_text">Opruimen</string>
+    <string name="CompletedTasks_CompletedBy_td_text">Yaisn</string>
+    <string name="CompletedTasks_finishedAt_td_text">18-05-2024 16:03</string>
+
+
+    <!--room overview-->
+    <string name="roomOverview_title_tv_text">Kamer overzicht</string>
+    <string name="roomOverview_header1_tv_text">ID</string>
+    <string name="roomOverview_header2_tv_text">Naam</string>
+    <string name="roomOverview_header3_tv_text">Aantal Taken</string>
+    <string name="roomOverview_header4_tv_text">Taak Verwijderen</string>
+    <string name="roomOverview_colID_title_tv_text">1</string>
+    <string name="roomOverview_colName_title_tv_text">stofzuigen</string>
+    <string name="roomOverview_colNumberOfTasks_title_tv_text">2</string>
+
+    <!--Selected room-->
+    <string name="selectedroom_title_tv_text">Woonkamer</string>
+    <string name="selectedroom_header1_tv_text">ID</string>
+    <string name="selectedroom_header2_tv_text">Taak</string>
+    <string name="selectedroom_header3_tv_text">Datum</string>
+    <string name="selectedroom_header4_tv_text">Taak Verwijderen</string>
+    <string name="selectedroom_colID_title_tv_text">1</string>
+    <string name="selectedroom_colTask_title_tv_text">stofzuigen</string>
+    <string name="selectedroom_colDate_title_tv_text">20-06-2024</string>
+
+
+    <!--Editing room data-->
+    <string name="editingroomdata_title_tv_text">Aanpassen Kamergegevens</string>
+    <string name="editingroomdata_header1_tv_text">Kamernaam</string>
+    <string name="editingroomdata_header2_tv_text">Wijzigen</string>
+    <string name="editingroomdata_header3_tv_text">Verwijderen</string>
+    <string name="editingroomdata_header4_tv_text">Aantal Taken</string>
+    <string name="editingroomdata_col1_ID_title_tv_text">Woonkamer</string>
+    <string name="editingroomdata_col2_edit_title_tv_text">Wijzigen</string>
+    <string name="editingroomdata_col3_remove_title_tv_text">X</string>
+    <string name="editingroomdata_col4_numberOfTasks_tv_text">4</string>
+
+
+    <!--edit Tasks-->
+    <string name="editTasks_title_tv_text">Taken Aanpassen</string>
+    <string name="editTasks_id_th_text">ID</string>
+    <string name="editTasks_task_th_text">Taak</string>
+    <string name="editTasks_edit_th_text">Wijzigen</string>
+    <string name="editTasks_delete_th_text">Verwijderen</string>
+    <string name="editTasks_id_td_text">2</string>
+    <string name="editTasks_task_td_text">Stofzuigen</string>
+    <string name="editTasks_edit_td_text">Wijzigen</string>
+    <string name="editTasks_delete_td_text">X</string>
+
+
+    <!--edit one task  -->
+    <string name="editOneTask_title_tv_text">Taken Aanpassen</string>
+    <string name="status">Status</string>
+    <string name="task">Task</string>
+    <string name="user">User</string>
+    <string name="room">Room</string>
+    <string name="Date">Aangepast Op</string>
+    <string name="Restore">Restore Op</string>
+    <string name="Edit">Wijzigen</string>
+
+
+</resources>

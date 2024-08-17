@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/r"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CleaningBuddy"
+        tools:targetApi="31">
+        <activity
+            android:name=".EditingTasksActivityAdapterRecyclerView"
+            android:exported="true" />
+        <activity
+            android:name=".CompletedTasksAdapterRecyclerView"
+            android:exported="true" />
+        <activity
+            android:name=".EditingRoomDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditOneTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditingTasksActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CompletedTasksActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SelectedRoomActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OverzichtKamersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OutstandingTasksActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewTaskActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true" />
+        <activity
+            android:name=".NewRoomActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:theme="@style/Theme.CleaningBuddy.Fullscreen" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
